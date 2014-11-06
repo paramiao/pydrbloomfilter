@@ -57,3 +57,4 @@ class pydrbloomfilter:
 
 if __name__ == '__main__':
     pbl = pydrbloomfilter(300000000, 0.001)
+    pbl.clear()
